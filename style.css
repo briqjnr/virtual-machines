@@ -1,0 +1,202 @@
+body{
+  margin: 0;
+}
+
+#navbar{
+  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#navbar a{
+  color: white;
+  text-decoration: none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+#navbar a:hover{
+  color: gold;
+}
+
+* { 
+  background-color: black;     
+  box-sizing: border-box;
+  padding: 25,50,75,150,;
+}
+
+/* body{
+  margin: 30px;
+  background-image: url("background1.jpg");
+} */
+
+#image1.png{
+  width:auto;
+  height: auto; 
+  align-items: auto; 
+  display: flex;  
+}
+
+.border-radius,image.png{
+  border-radius: 50%;
+}
+
+#image5.png{
+  width:auto; 
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+
+  
+
+h1{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2{  
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+p{
+  color: white;
+  letter-spacing: 4px;
+  font-size: 1.5vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bullet{
+  font-size: medium;
+  font-family: cursive;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: monospace;
+  justify-content: space-evenly; 
+  align-items: center;
+}
+
+q{
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.insert{
+  background-color: rgb(56, 56, 58);
+} 
+
+/* #pagewrapper{
+  min-height: 500px;
+}
+
+#wholepade{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+font-family;"Roboto", sans-serif;
+/* add this to font section */
+/* * { */
+   /* background-color:white; */
+   /* box-sizing: border-box; */
+   /* padding:25px 50px 75px 100px; */
+  /* } */
+/* this is how to target ALL of your html code.this shows how to change the background colour */
+
+/* *box-sizing border-box resets the border to the whole html as most borders have there own setting */
+
+/* *padding: one value(number)represents padding on all sides two represents top and bottom , three values represent top,right and left,then bottom . Four values represent top,right,bottom,left*/
+
+
+
+/* body{ */
+  /* margin: 30px; */
+  /* background-image: url("background.jpeg") */
+/* } */
+/* re-sizes area surrounding text  and images*/
+
+
+/* h1{ */
+  /* color: blue; */
+  /* font-size:12px ; */
+/* } */
+
+/* this is how to target an element within our html and change the colour and size of it */
+
+/* .welcome{ */
+  /* background-color: tomato; */
+/* } */
+/* This is how to target a class but dont change the size of the text */
+
+/*  defining class */
+/* .large{ */
+  /* font-size: 30; */
+/* } */
+
+/* * .white{ */
+  /* background-color: white; */
+/* }  */
+
+/* using this we can target the font size and background colour */
+
+
+/*SEE VIDEO FOR JUMPLINK  */
+/* <h3 id="chapter1>Chapter1</h3> */
+/* jump link <p a href=#"chapter1">Chapter1</a></p> */
+
+
+/* #whitetext{ */
+  /* color: white; */
+/* } */
+/* this is how to target an id */
+/*                       */
+
+
+
+/* <img id="image1" src="image1.png"> */
+    /* <!-- ex:of Element Sizing --> */
+/* #image1{ */
+  /* width: 20%; */
+/* } */
+/*makes the image size _% of whatever size it is was originally  */
+
+
+/* p{ */
+  /* background-color: rgb(red, green, blue); */
+  /* font-family: fantasy; */
+  /* font-size: 30px; */
+  /* font-style: italic; */
+  /* font-weight: 700; */
+
+  /* <p class="large white ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cumque dignissimos a mollitia? Assumenda cupiditate, placeat, soluta eum obcaecati facilis expedita temporibus distinctio nulla quisquam repudiandae ut, atque ducimus harum!</p> */
+
+  /* <p id="whitetext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quia minima molestiae necessitatibus maiores expedita iste ab aliquid, consequuntur possimus beatae voluptatibus soluta at praesentium harum? Ipsam praesentium eius aut.</p> */
+
+  /* <img id="image1" src="e.g.jpeg"> */
+    /* <!-- ex:of Element Sizing -->  */
+
+   
